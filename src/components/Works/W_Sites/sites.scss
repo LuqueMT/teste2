@@ -1,0 +1,25 @@
+.section-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    .img-cole {
+        display: flex;
+        gap: 1rem;
+        margin: 2rem;
+
+        .content-colection {
+            .content-image {
+                border-radius: 20px 0 0 0;
+                position: relative;
+                display: flex;
+                background-color: rgb(59, 59, 59);
+                justify-content: center;
+                align-items: center;
+                height: 16rem;
+                width: 13rem;
+            }
+        }
+    }
+}

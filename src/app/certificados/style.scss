@@ -1,0 +1,79 @@
+.container-body {
+    background-image: linear-gradient(to left, #0c0c0c, #05b41f, #048d04);
+    background-size: 500% 100%;
+    animation: deg-anima 5s infinite alternate;
+
+    .content {
+        margin: 0 6rem;
+
+        h2 {
+            font-size: 2.5rem;
+            color: white;
+            padding-top: 2rem;
+            text-shadow: 2px 2px 5px #969696;
+            font-family: var(--font-IBM);
+            border-bottom: 5px solid #08530c;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            justify-content: center;
+            align-items: center;
+            justify-items: center;
+            gap: 3rem;
+            background-color: transparent;
+            height: 100%;
+            padding-bottom: 2rem;
+
+            .card-info {
+                box-shadow: 5px 5px 10px #969696;
+                transition: .4s ease;
+                margin-top: 2rem;
+                width: 40vw;
+                height: 50vh;
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    background-image: cover;
+                }
+            }
+
+            .card-info:hover {
+                box-shadow: 9px 9px 20px #d8d3d3ea;
+            }
+        }
+    }
+}
+
+@keyframes deg-anima {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-body {
+        .content {
+            h2 {}
+
+            section {
+                grid-template-columns: repeat(1, 4fr);
+
+                .card-info {
+                    width: 85vw;
+                    height: 50vh;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {}

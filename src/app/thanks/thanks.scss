@@ -1,0 +1,163 @@
+:root {
+    --color-neutral-0: #f7f7f7;
+    --color-neutral-10: #f8f8f8;
+    --color-neutral-30: #ffffff;
+    --color-neutral-40: #f3f3f3f5;
+    --color-45deg: linear-gradient(-45deg, #0c0c0c, #05b41f);
+    --font-Cinzel: "Cinzel", serif, Arial, Helvetica, sans-serif;
+    --font-Poppins: "Poppins", serif, Arial, Helvetica, sans-serif;
+    --font-IBM: "IBM Plex Mono", serif, Arial, Helvetica, sans-serif;
+    --font-Crimson: "Crimson Text", serif, Arial, Helvetica, sans-serif;
+    --font-Roboto: "Roboto Mono", serif, Arial, Helvetica, sans-serif;
+    --font-MerriW: "Merriweather Sans", serif, Arial, Helvetica, sans-serif;
+}
+
+.container-obg {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    background-image: linear-gradient(to left, #0c0c0c, #05b41f, #048d04);
+    background-size: 500% 100%;
+    animation: deg-anima 5s infinite alternate;
+
+    .body-obg {
+        display: flex;
+        height: 60vh;
+        width: 60vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: #4d4d4d2a;
+        box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.4);
+        transition: .4s ease;
+
+        h2 {
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        p {
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        img {
+            margin-top: 0;
+            height: 40vh;
+            width: 40vw;
+        }
+
+        .options {
+            display: flex;
+            gap: 3rem;
+            margin: 2rem;
+
+            .btn {
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+                align-items: center;
+                text-align: center;
+                gap: 8px;
+                height: 40px;
+                width: 130px;
+                border-radius: 10px;
+                transition: .4s ease;
+            }
+
+            .btn:hover {
+                box-shadow: 0 0 20px #ebebeb;
+            }
+
+            a {
+                font-size: 17px;
+                text-decoration: none;
+                font-weight: 600;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .linkedin-btn {
+                background-image: linear-gradient(-45deg, #06719b, #322332);
+            }
+
+            .whatsapp-btn {
+                background-image: linear-gradient(-45deg, #04f518, #322332);
+            }
+
+            .outlook-btn {
+                background-image: linear-gradient(-45deg, #32abf1, #322332);
+            }
+        }
+    }
+
+    .body-obg:hover {
+        box-shadow: 15px 15px 20px rgba(255, 255, 255, 0.699);
+        border-radius: 20px 0 0 0;
+    }
+}
+
+@keyframes deg-anima {
+    0% {
+        background-position-x: 0%;
+    }
+
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-obg {
+        width: 100%;
+        min-height: 70vh;
+        .body-obg {
+            display: flex;
+            height: 60vh;
+            width: 80vw;
+        }
+    }
+
+}
+@media screen and (max-width:480px){
+    .container-obg {
+        width: 100%;
+        min-height: 60vh;
+        .body-obg {
+            display: flex;
+            height: 50vh;
+            width: 85vw;
+            flex-direction: column;
+
+
+            h2 {}
+
+            p {
+                font-size: 25px;
+                font-style: italic;
+                font-family:var(--font-Poppins);
+            }
+
+            img {}
+
+            .options {
+                flex-direction: column;
+                .btn{
+                    height: 3vh;
+                    width: 15vh;
+                }
+            }
+        }
+    }
+}
