@@ -418,3 +418,44 @@
       }
    }
 }
+@media screen and (max-width:320px) {
+   .container-home {
+      .content-home {
+         .identify {
+            
+         }
+         .section-body {
+            display: grid;
+            grid-column: 1;
+            grid-template-columns: repeat(1, 2fr);
+            .sec-about{
+               .p-about {
+                  width: 85vw;
+                  height: 85vh;
+                  font-size: 20px;
+               }
+               .p-about-2 {
+                  text-align: justify;
+                  font-size: 20px;
+                  width: 85vw;
+                  height: 13vh;
+                  margin: 2rem 0 2rem 0;
+               }
+            }
+
+            .list-frame {
+               grid-template-columns: repeat(2,2fr);
+               gap: 0;
+            }
+
+            .list-apis {
+               display: flex;
+               ;
+               flex-direction: column;
+            }
+
+            .list-sites {}
+         }
+      }
+   }
+}

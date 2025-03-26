@@ -3,6 +3,7 @@ import "./contatos.css";
 import Footer from "@/components/Footer/Footer";
 import Image from "next/image";
 import img from '@/../public/assests/icons/LikeABro.svg'
+
 export default function Contatos() {
 	return (
 		<>
@@ -23,7 +24,7 @@ export default function Contatos() {
 								<span className="text">Enviar</span>
 								<span>Obrigado!</span>
 							</button>
-							<input type="hidden" name="redirectTo" value="http://localhost:3000/thanks"></input>
+							<input type="hidden" name="redirectTo" value="https://luquemt.github.io/teste.2/thanks"></input>
 						</form>
 					</div>
 					<div className="content-img">

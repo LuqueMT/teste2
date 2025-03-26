@@ -76,4 +76,35 @@
     }
 }
 
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+    .container-body {
+        .content {
+            h2 {}
+
+            section {
+                .card-info {
+                    width: 85vw;
+                    height: 50vh;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-body {
+        .content {
+            margin: 0;
+            h2 {
+                font-size: 1.8rem;
+                padding: 2rem 0 0 1rem;
+            }
+            section {
+                .card-info {
+                    width: 90vw;
+                    height: 10vh;
+                }
+            }
+        }
+    }
+}
