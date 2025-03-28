@@ -54,6 +54,7 @@
 @media screen and (max-width: 768px) {
   .container-body .content section {
     grid-template-columns: repeat(1, 4fr);
+    gap: 2rem;
   }
   .container-body .content section .card-info {
     width: 85vw;
@@ -61,9 +62,12 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .container-body .content section {
+    gap: 1rem;
+  }
   .container-body .content section .card-info {
     width: 85vw;
-    height: 50vh;
+    height: 20vh;
   }
 }
 @media screen and (max-width: 320px) {
@@ -76,6 +80,6 @@
   }
   .container-body .content section .card-info {
     width: 90vw;
-    height: 10vh;
+    height: 12vh;
   }
 }/*# sourceMappingURL=style.css.map */

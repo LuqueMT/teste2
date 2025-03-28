@@ -157,7 +157,7 @@
         .container-section{
             width: 90vw;
             .content-form{
-                width: 60%;
+                width: 50%;
             }
             .content-img{
                 img{
@@ -181,6 +181,25 @@
                 img{
                     width: 60vw;
                     height: 60vw;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:320px) {
+    
+}
+@media screen and (min-width:769px) {
+    .body-contatos{
+        .container-section{
+            width: 90vw;
+            .content-form{
+                width: 60%;
+            }
+            .content-img{
+                img{
+                    width: 30vw;
+                    height: 30vh;
                 }
             }
         }

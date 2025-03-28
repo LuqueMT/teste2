@@ -1,15 +1,5 @@
-:root {
-  --color-neutral-0: #f7f7f7;
-  --color-neutral-10: #f8f8f8;
-  --color-neutral-30: #ffffff;
-  --color-neutral-40: #f3f3f3f5;
-  --color-45deg: linear-gradient(-45deg, #0c0c0c, #05b41f);
-  --font-Cinzel: "Cinzel", serif, Arial, Helvetica, sans-serif;
-  --font-Poppins: "Poppins", serif, Arial, Helvetica, sans-serif;
-  --font-IBM: "IBM Plex Mono", serif, Arial, Helvetica, sans-serif;
-  --font-Crimson: "Crimson Text", serif, Arial, Helvetica, sans-serif;
-  --font-Roboto: "Roboto Mono", serif, Arial, Helvetica, sans-serif;
-  --font-MerriW: "Merriweather Sans", serif, Arial, Helvetica, sans-serif;
+a {
+  color: #ebebeb;
 }
 
 .container-obg {

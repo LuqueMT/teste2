@@ -24,10 +24,12 @@ export default function Main() {
                         </div>
                     </div>
                     <div className="section-body">
-                        <div className="sec-about">
+                        <div id="about" className="sec-about">
                             <h2>Sobre</h2>
-                            <p className="p-about">Sou desenvolvedor <span className="color-green">FullStack</span> com conhecimento em diversos frameworks, incluindo <span className="color-green">Next.js, Vite e React.</span> Possuo habilidades de programação nas linguagens <span className="color-green">Python e JavaScript,</span> além de experiência na aplicação de <span className="color-green">Bootstrap e Tailwind</span> em meus projetos. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, oportunidade que tem permitido aplicar meus conhecimentos em projetos utilizando <span className="color-green">Node.js e MongoDB.</span> Além disso, tenho um ano de experiência com SQL como Analista de Dados Júnior, atuando com diferentes ferramentas de manipulação de dados, tais como <span className="color-green">SQL Server, HeidiSQL</span> e soluções de Business Intelligence (BI) com <span className="color-green">QlikView.</span>
-                            </p>
+                            <div>
+                                <p className="p-about">Sou desenvolvedor <span className="color-green">FullStack</span> com conhecimento em diversos frameworks, incluindo <span className="color-green">Next.js, Vite e React.</span> Possuo habilidades de programação nas linguagens <span className="color-green">Python e JavaScript,</span> além de experiência na aplicação de <span className="color-green">Bootstrap e Tailwind</span> em meus projetos. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, oportunidade que tem permitido aplicar meus conhecimentos em projetos utilizando <span className="color-green">Node.js e MongoDB.</span> Além disso, tenho um ano de experiência com SQL como Analista de Dados Júnior, atuando com diferentes ferramentas de manipulação de dados, tais como <span className="color-green">SQL Server, HeidiSQL</span> e soluções de Business Intelligence (BI) com <span className="color-green">QlikView.</span>
+                                </p>
+                            </div>
                             <p className="p-about-2">Utilizei este nome de <span className="color-green">Nexus</span> em meus projetos, para dar uma marca padrão na minha identidade de desenvolvedor.</p>
                         </div>
                         <div className="list-frame">
@@ -43,7 +45,7 @@ export default function Main() {
                                 <W_APIs />
                             </div>
                         </div>
-                        <div className="list-sites">
+                        <div id="projects" className="list-sites">
                             <h3 className="anima">Sites</h3>
                             <div className="sec-sites" data-aos="fade-right" data-aos-delay="500">
                                 <W_Sites />

@@ -149,7 +149,7 @@
     width: 90vw;
   }
   .body-contatos .container-section .content-form {
-    width: 60%;
+    width: 50%;
   }
   .body-contatos .container-section .content-img img {
     width: 30vw;
@@ -170,5 +170,17 @@
   .body-contatos .container-section .content-img img {
     width: 60vw;
     height: 60vw;
+  }
+}
+@media screen and (min-width: 769px) {
+  .body-contatos .container-section {
+    width: 90vw;
+  }
+  .body-contatos .container-section .content-form {
+    width: 60%;
+  }
+  .body-contatos .container-section .content-img img {
+    width: 30vw;
+    height: 30vh;
   }
 }/*# sourceMappingURL=contatos.css.map */

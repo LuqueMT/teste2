@@ -12,8 +12,9 @@ export default function Contatos() {
 				<section className="container-section">
 					<div className="content-form">
 						<h2>Contato</h2>
-						<form action="https://api.staticforms.xyz/submit" method="post">
-							<input type="hidden" name="accessKey" value="1b941ef8-05fd-48fe-acc6-eb8bb718522b"></input>
+						<form action="https://formsubmit.co/luhemt03@outlook.com" method="post">
+
+							<input type="hidden" name="_captcha" value="false"/>
 							<label>Nome</label>
 							<input type="text" name="name" placeholder="Digite seu nome" autoComplete="off" required />
 							<label>E-mail</label>
@@ -24,7 +25,7 @@ export default function Contatos() {
 								<span className="text">Enviar</span>
 								<span>Obrigado!</span>
 							</button>
-							<input type="hidden" name="redirectTo" value="https://luquemt.github.io/teste.2/thanks"></input>
+							<input type="hidden" name="_next" value="http://localhost:3000/thanks"></input>
 						</form>
 					</div>
 					<div className="content-img">
